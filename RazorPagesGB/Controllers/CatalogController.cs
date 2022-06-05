@@ -16,8 +16,20 @@ namespace RazorPagesGB.Controllers
         [HttpPost]
         public IActionResult Products(Product product)
         {
-            _catalog.Products.Add(product);
-            return View(_catalog);
+            _catalog.ProductAdd(product);
+            return RedirectToAction("Products");
+        }
+
+        [HttpPost, ActionName("ProductDelete")]
+        public IActionResult ProductDeleteConfirmed(int id)
+        {
+            if (_catalog.ProductsGetAll()
+                .FirstOrDefault(p => p.Id == id) == null)
+            {
+                return NotFound();
+            }
+            _catalog.ProductDelete(id);
+            return RedirectToAction("Products");
         }
 
 
@@ -25,6 +37,18 @@ namespace RazorPagesGB.Controllers
         public IActionResult ProductsAdd()
         {
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult ProductDelete(int id)
+        {
+            var product = _catalog.ProductsGetAll()
+                .FirstOrDefault(p => p.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
     }
 }
