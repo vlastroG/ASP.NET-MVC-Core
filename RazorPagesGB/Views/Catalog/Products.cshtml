@@ -27,15 +27,17 @@
             <th>
                 Image
             </th>
+            <th>
+            </th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.Products)
+        @foreach (var item in Model.ProductsGetAll())
         {
             <tr>
                 <td>
                     @item.Id |
-                </td>    
+                </td>
                 <td>
                     @item.Name |
                 </td>
@@ -47,6 +49,9 @@
                 </td>
                 <td>
                     <img src="@item.Image" alt="Product photo.">
+                </td>
+                <td>
+                    <a asp-action="ProductDelete" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
         }
