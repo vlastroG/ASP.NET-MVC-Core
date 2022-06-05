@@ -1,0 +1,54 @@
+﻿@model Catalog
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h1>Products</h1>
+
+<p>
+    <a asp-action="ProductsAdd">Add new product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Image
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Products)
+        {
+            <tr>
+                <td>
+                    @item.Id |
+                </td>    
+                <td>
+                    @item.Name |
+                </td>
+                <td>
+                    @item.Description |
+                </td>
+                <td>
+                    @item.Price |
+                </td>
+                <td>
+                    <img src="@item.Image" alt="Product photo.">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
