@@ -1,8 +1,10 @@
-﻿namespace RazorPagesGB.Models
+﻿using AddIns;
+
+namespace RazorPagesGB.Models
 {
     public class Catalog
     {
-        private List<Product> _products { get; set; } = new();
+        private ConcurrentList<Product> _products { get; set; } = new();
         private readonly object _syncProducts = new();
         public void ProductAdd(Product product)
         {
@@ -34,7 +36,7 @@
 
         public IReadOnlyList<Product> ProductsGetAll()
         {
-            var products_readonly = _products as IReadOnlyList<Product>;
+            var products_readonly = _products.GetAll() as IReadOnlyList<Product>;
             return products_readonly;
         }
     }
