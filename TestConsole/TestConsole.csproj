@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AddIns\AddIns.csproj" />
+    <ProjectReference Include="..\RazorPagesGB\RazorPagesGB.csproj" />
+  </ItemGroup>
+
 </Project>

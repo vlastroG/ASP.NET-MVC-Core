@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AddIns
 {
-    public class ConcurrentList<T> : IEnumerable<T>, IComparable<T>
+    public class ConcurrentList<T> : IEnumerable<T>
     {
         private readonly ConcurrentDictionary<int, T> _concurrentDict = new ConcurrentDictionary<int, T>();
         private int _lastKey = 0;
@@ -49,7 +49,7 @@ namespace AddIns
         {
             lock (_syncObj)
             {
-                var readonly_bag = _concurrentDict as IReadOnlyCollection<T>;
+                var readonly_bag = _concurrentDict.Values as IReadOnlyCollection<T>;
                 return readonly_bag;
             }
         }
@@ -67,14 +67,6 @@ namespace AddIns
             lock (_syncObj)
             {
                 return _concurrentDict.Values.GetEnumerator();
-            }
-        }
-
-        public int CompareTo(T? other)
-        {
-            lock (_syncObj)
-            {
-                return CompareTo(other);
             }
         }
     }
