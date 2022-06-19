@@ -26,8 +26,8 @@ namespace RazorPagesGB.Models
 
         public IReadOnlyList<Product> ProductsGetAll()
         {
-            var products_readonly = _products.GetAll() as IReadOnlyList<Product>;
-            return products_readonly;
+            var productsReadonly = _products.GetAll() as IReadOnlyList<Product>;
+            return productsReadonly;
         }
     }
 }
