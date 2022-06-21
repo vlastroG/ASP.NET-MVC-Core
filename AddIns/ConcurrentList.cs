@@ -19,7 +19,7 @@ namespace AddIns
             if (deleteValue != null)
             {
                 var deleteKey = _concurrentDict.FirstOrDefault(i => i.Value!.Equals(item)).Key;
-                _concurrentDict.Remove(deleteKey, out deleteValue);
+                _concurrentDict.TryRemove(deleteKey, out deleteValue);
             }
         }
 
