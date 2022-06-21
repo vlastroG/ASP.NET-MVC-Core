@@ -1,73 +1,47 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AddIns
 {
     public class ConcurrentList<T> : IEnumerable<T>
     {
-        private readonly ConcurrentDictionary<int, T> _concurrentDict = new ConcurrentDictionary<int, T>();
-        private int _lastKey = 0;
-        private Object _syncObj = new();
+        private readonly ConcurrentDictionary<Guid, T> _concurrentDict = new ConcurrentDictionary<Guid, T>();
 
 
         public void Add(T item)
         {
-            lock (_syncObj)
-            {
-                _concurrentDict.AddOrUpdate(_lastKey, item, (k, v) => item);
-                _lastKey++;
-            }
+            _concurrentDict.AddOrUpdate(Guid.NewGuid(), item, (k, v) => item);
         }
 
         public void Remove(T item)
         {
-            lock (_syncObj)
+            var deleteValue = _concurrentDict.Values.FirstOrDefault(i => i.Equals(item));
+            if (deleteValue != null)
             {
-                var delete_value = _concurrentDict.Values.FirstOrDefault(i => i.Equals(item));
-                if (delete_value != null)
-                {
-                    var delete_key = _concurrentDict.FirstOrDefault(i => i.Value!.Equals(item)).Key;
-                    _concurrentDict.Remove(delete_key, out delete_value);
-                }
+                var deleteKey = _concurrentDict.FirstOrDefault(i => i.Value!.Equals(item)).Key;
+                _concurrentDict.Remove(deleteKey, out deleteValue);
             }
         }
 
         public void Clear()
         {
-            lock (_syncObj)
-            {
-                _concurrentDict.Clear();
-            }
+            _concurrentDict.Clear();
         }
 
         public IReadOnlyCollection<T> GetAll()
         {
-            lock (_syncObj)
-            {
-                var readonly_bag = _concurrentDict.Values as IReadOnlyCollection<T>;
-                return readonly_bag;
-            }
+            var readonlyBag = _concurrentDict.Values as IReadOnlyCollection<T>;
+            return readonlyBag;
         }
 
         public IEnumerator<T> GetEnumerator()
         {
-            lock (_syncObj)
-            {
-                return _concurrentDict.Values.GetEnumerator();
-            }
+            return _concurrentDict.Values.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            lock (_syncObj)
-            {
-                return _concurrentDict.Values.GetEnumerator();
-            }
+            return _concurrentDict.Values.GetEnumerator();
         }
     }
 }
