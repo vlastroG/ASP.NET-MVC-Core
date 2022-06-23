@@ -30,13 +30,7 @@ namespace RazorPagesGB.Controllers
             // добавить отправку email
             string body =
                 "<h1>В каталог добавлен следующий товар:</h1>" +
-                "<tr>" +
-                    "<td>" + product.Id + " | </td>" +
-                    "<td>" + product.Name + " | </td>" +
-                    "<td>" + product.Description + " | </td>" +
-                    "<td>" + product.Price + " | </td>" +
-                    "<td><img src = \"" + @product.Image + "\" alt = \"Product photo.\"></td>" +
-                "</tr>";
+                product.ToHTMLString();
             _emailService.Send(new EmailDto()
             {
                 Body = body,
@@ -58,13 +52,7 @@ namespace RazorPagesGB.Controllers
             // добавить отправку email
             string body =
                 "<h1>Из каталога удален следующий товар:</h1>" +
-                "<tr>" +
-                    "<td>" + product.Id + " | </td>" +
-                    "<td>" + product.Name + " | </td>" +
-                    "<td>" + product.Description + " | </td>" +
-                    "<td>" + product.Price + " | </td>" +
-                    "<td><img src = \"" + @product.Image + "\" alt = \"Product photo.\"></td>" +
-                "</tr>";
+                product.ToHTMLString();
             _emailService.Send(new EmailDto()
             {
                 Body = body,
