@@ -29,5 +29,22 @@ namespace RazorPagesGB.Models
             Price = price;
             Image = @image;
         }
+
+        /// <summary>
+        /// Конвертирует товар в html строку (значения свойств в оформленном для человека виде).
+        /// </summary>
+        /// <returns>Строка html вида.</returns>
+        public string ToHTMLString()
+        {
+            string htmlString =
+                            "<tr>" +
+                                "<td>" + Id + " | </td>" +
+                                "<td>" + Name + " | </td>" +
+                                "<td>" + Description + " | </td>" +
+                                "<td>" + Price + " | </td>" +
+                                "<td><img src = \"" + @Image + "\" alt = \"Product photo.\"></td>" +
+                            "</tr>";
+            return htmlString;
+        }
     }
 }

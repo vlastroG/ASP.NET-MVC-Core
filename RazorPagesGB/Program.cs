@@ -1,7 +1,15 @@
+using RazorPagesGB.Services.EmailService;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Время жизни - scope, т.к. на каждый запрос на добавление товара
+// и, следовательно, на запрос по отправке email уведомления об этом,
+// нужно создавать только один экземпляр класса сервиса отправки сообщений.
+// За один запрос может добавиться максимум 1 товар и вместе с ним 1 сообщение.
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();
 
