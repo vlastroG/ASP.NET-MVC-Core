@@ -1,9 +1,11 @@
+using RazorPagesGB.Configs;
 using RazorPagesGB.Services.EmailService;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.Configure<SmtpConfig>(builder.Configuration.GetSection("SmtpConfig"));
 
 // Время жизни - scope, т.к. на каждый запрос на добавление товара
 // и, следовательно, на запрос по отправке email уведомления об этом,
