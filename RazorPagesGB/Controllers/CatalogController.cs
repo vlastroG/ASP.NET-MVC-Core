@@ -24,14 +24,14 @@ namespace RazorPagesGB.Controllers
         }
 
         [HttpPost]
-        public IActionResult Products(Product product)
+        public async Task<IActionResult> Products(Product product)
         {
             _catalog.ProductAdd(product);
             // добавить отправку email
             string body =
                 "<h1>В каталог добавлен следующий товар:</h1>" +
                 product.ToHTMLString();
-            _emailService.Send(new EmailDto()
+            await _emailService.SendAsync(new EmailDto()
             {
                 Body = body,
                 Subject = "Добавлен товар",
@@ -41,7 +41,7 @@ namespace RazorPagesGB.Controllers
         }
 
         [HttpPost, ActionName("ProductDelete")]
-        public IActionResult ProductDeleteConfirmed(int id)
+        public async Task<IActionResult> ProductDeleteConfirmed(int id)
         {
             Product? product = _catalog.ProductsGetAll().FirstOrDefault(p => p.Id == id);
             if (product == null)
@@ -53,7 +53,7 @@ namespace RazorPagesGB.Controllers
             string body =
                 "<h1>Из каталога удален следующий товар:</h1>" +
                 product.ToHTMLString();
-            _emailService.Send(new EmailDto()
+            await _emailService.SendAsync(new EmailDto()
             {
                 Body = body,
                 Subject = "Удален товар",
