@@ -14,7 +14,7 @@
             using (StreamReader reader = new StreamReader(@path))
             {
                 string? line;
-                while ((line = await reader.ReadLineAsync()) != null)
+                while ((line = await reader.ReadLineAsync().ConfigureAwait(false)) != null)
                 {
                     allLines.Add(line);
                 }
@@ -75,7 +75,7 @@
             foreach (string path in filePaths)
             {
                 List<string>? allLinesOfFile = new();
-                allLinesOfFile = await ReadCharacters(path) as List<string>;
+                allLinesOfFile = await ReadCharacters(path).ConfigureAwait(false) as List<string>;
 
 #pragma warning disable CS8604 // Possible null reference argument.
                 allLinesOfAllFiles.AddRange(allLinesOfFile);
