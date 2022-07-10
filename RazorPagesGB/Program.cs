@@ -1,4 +1,5 @@
 using RazorPagesGB.Configs;
+using RazorPagesGB.Services.EmailBackgroundService;
 using RazorPagesGB.Services.EmailService;
 using Serilog;
 using Serilog.Events;
@@ -24,6 +25,7 @@ try
     builder.Services.AddControllersWithViews();
     builder.Services.Configure<SmtpConfig>(builder.Configuration.GetSection("SmtpConfig"));
 
+    builder.Services.AddHostedService<EmailBackgroundService>();
     // ¬рем€ жизни - scope, т.к. на каждый запрос на добавление товара
     // и, следовательно, на запрос по отправке email уведомлени€ об этом,
     // нужно создавать только один экземпл€р класса сервиса отправки сообщений.
