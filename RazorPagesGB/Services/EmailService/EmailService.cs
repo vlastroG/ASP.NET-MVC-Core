@@ -31,5 +31,20 @@ namespace RazorPagesGB.Services.EmailService
             smtp.Send(email);
             smtp.Disconnect(true);
         }
+
+        public async Task SendAsync(EmailDto request)
+        {
+            var email = new MimeMessage();
+            email.From.Add(MailboxAddress.Parse(_config.UserName));
+            email.To.Add(MailboxAddress.Parse(request.To));
+            email.Subject = request.Subject;
+            email.Body = new TextPart(TextFormat.Html) { Text = request.Body };
+
+            using var smtp = new SmtpClient();
+            await smtp.ConnectAsync(_config.Host, _config.Port, SecureSocketOptions.StartTls).ConfigureAwait(false);
+            await smtp.AuthenticateAsync(_config.UserName, _config.Password).ConfigureAwait(false);
+            await smtp.SendAsync(email).ConfigureAwait(false);
+            await smtp.DisconnectAsync(true).ConfigureAwait(false);
+        }
     }
 }
