@@ -23,17 +23,19 @@ namespace RazorPagesGB.Services.EmailBackgroundService
             while (await timer.WaitForNextTickAsync(stoppingToken))
             {
                 string body = "<h1>Server works normal.<h1>";
-                using (IServiceScope scope = _serviceProvider.CreateScope())
+                await using (AsyncServiceScope scope = _serviceProvider.CreateAsyncScope())
                 {
                     IEmailService emailService =
                         scope.ServiceProvider.GetRequiredService<IEmailService>();
 
-                    await emailService.SendAsync(new EmailDto()
-                    {
-                        Body = body,
-                        Subject = "Работа сервера",
-                        To = _to
-                    });
+                    await emailService.SendAsync(
+                        new EmailDto()
+                        {
+                            Body = body,
+                            Subject = "Работа сервера",
+                            To = _to
+                        },
+                    stoppingToken);
                 }
             }
         }
