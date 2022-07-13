@@ -17,7 +17,7 @@ namespace RazorPagesGB.Services.EmailService
             _config = options.Value;
         }
 
-        public void Send(EmailDto request)
+        public void Send(EmailDto request, CancellationToken cancellationToken = default)
         {
             var email = new MimeMessage();
             email.From.Add(MailboxAddress.Parse(_config.UserName));
@@ -26,13 +26,13 @@ namespace RazorPagesGB.Services.EmailService
             email.Body = new TextPart(TextFormat.Html) { Text = request.Body };
 
             using var smtp = new SmtpClient();
-            smtp.Connect(_config.Host, _config.Port, SecureSocketOptions.StartTls);
-            smtp.Authenticate(_config.UserName, _config.Password);
-            smtp.Send(email);
-            smtp.Disconnect(true);
+            smtp.Connect(_config.Host, _config.Port, SecureSocketOptions.StartTls, cancellationToken);
+            smtp.Authenticate(_config.UserName, _config.Password, cancellationToken);
+            smtp.Send(email, cancellationToken);
+            smtp.Disconnect(true, cancellationToken);
         }
 
-        public async Task SendAsync(EmailDto request)
+        public async Task SendAsync(EmailDto request, CancellationToken cancellationToken = default)
         {
             var email = new MimeMessage();
             email.From.Add(MailboxAddress.Parse(_config.UserName));
@@ -41,10 +41,10 @@ namespace RazorPagesGB.Services.EmailService
             email.Body = new TextPart(TextFormat.Html) { Text = request.Body };
 
             using var smtp = new SmtpClient();
-            await smtp.ConnectAsync(_config.Host, _config.Port, SecureSocketOptions.StartTls).ConfigureAwait(false);
-            await smtp.AuthenticateAsync(_config.UserName, _config.Password).ConfigureAwait(false);
-            await smtp.SendAsync(email).ConfigureAwait(false);
-            await smtp.DisconnectAsync(true).ConfigureAwait(false);
+            await smtp.ConnectAsync(_config.Host, _config.Port, SecureSocketOptions.StartTls, cancellationToken).ConfigureAwait(false);
+            await smtp.AuthenticateAsync(_config.UserName, _config.Password, cancellationToken).ConfigureAwait(false);
+            await smtp.SendAsync(email, cancellationToken).ConfigureAwait(false);
+            await smtp.DisconnectAsync(true, cancellationToken).ConfigureAwait(false);
         }
     }
 }
