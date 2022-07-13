@@ -4,9 +4,11 @@ namespace RazorPagesGB.Models
 {
     public class Catalog
     {
+        
         private ConcurrentList<Product> _products { get; set; } = new();
         public void ProductAdd(Product product)
         {
+            //Добавить регистрацию и перехват события
             _products.Add(product);
         }
 
