@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Domain\DomainEvents\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
 

@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using MimeKit;
 using MimeKit.Text;
 using RazorPagesGB.Configs;
-using RazorPagesGB.Models;
+using RazorPagesGB.DTO;
 
 namespace RazorPagesGB.Services.EmailService
 {

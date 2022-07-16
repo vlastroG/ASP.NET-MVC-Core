@@ -1,4 +1,5 @@
-﻿using RazorPagesGB.Models;
+﻿using RazorPagesGB.DTO;
+using RazorPagesGB.Models;
 using RazorPagesGB.Services.EmailService;
 using System.Diagnostics;
 

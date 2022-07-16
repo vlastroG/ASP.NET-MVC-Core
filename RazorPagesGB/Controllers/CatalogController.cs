@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RazorPagesGB.Domain;
+using RazorPagesGB.DTO;
 using RazorPagesGB.Models;
 using RazorPagesGB.Services.EmailService;
 
