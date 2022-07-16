@@ -7,7 +7,14 @@
         public static void Register<T>(Action<T> eventHandler)
             where T : IDomainEvent
         {
-            _handlers[typeof(T)].Add(eventHandler);
+            if (_handlers.ContainsKey(typeof(T)))
+            {
+                _handlers[typeof(T)].Add(eventHandler);
+            }
+            else
+            {
+                _handlers[typeof(T)] = new List<Delegate>() { eventHandler };
+            }
         }
 
         public static void Raise<T>(T domainEvent)
