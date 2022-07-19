@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.HttpLogging;
 using RazorPagesGB.Configs;
 using RazorPagesGB.Domain.DomainEvents.EventConsumers;
 using RazorPagesGB.Services.EmailBackgroundService;
@@ -23,6 +24,13 @@ try
     });
 
     // Add services to the container.
+    builder.Services.AddHttpLogging(options =>
+    {
+        options.LoggingFields = HttpLoggingFields.RequestHeaders
+                                | HttpLoggingFields.RequestBody
+                                | HttpLoggingFields.ResponseHeaders
+                                | HttpLoggingFields.ResponseBody;
+    });
     builder.Services.AddControllersWithViews();
     builder.Services.Configure<SmtpConfig>(builder.Configuration.GetSection("SmtpConfig"));
 
@@ -43,6 +51,7 @@ try
         // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
         app.UseHsts();
     }
+    app.UseHttpLogging();
 
     app.UseHttpsRedirection();
 
