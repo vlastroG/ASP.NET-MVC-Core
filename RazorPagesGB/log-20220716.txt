@@ -1,0 +1,352 @@
+2022-07-16 12:29:10.328 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 12:29:10.685 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-16 12:29:10.686 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-16 12:29:10.695 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 12:29:10.696 +03:00 [INF] Hosting environment: Development
+2022-07-16 12:29:10.697 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-16 12:29:11.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 12:29:11.205 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:29:11.235 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 12:29:11.307 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:29:11.316 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4348ms.
+2022-07-16 12:29:11.324 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 12:29:11.533 +03:00 [INF] Executed ViewResult - view Index executed in 210.2773ms.
+2022-07-16 12:29:11.540 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 303.0333ms
+2022-07-16 12:29:11.542 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:29:11.547 +03:00 [INF] HTTP GET / responded 200 in 360.8742 ms
+2022-07-16 12:29:11.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 492.9602ms
+2022-07-16 12:29:11.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-07-16 12:29:11.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo - -
+2022-07-16 12:29:11.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-07-16 12:29:11.633 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery/dist/jquery.min.js - -
+2022-07-16 12:29:11.645 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-07-16 12:29:11.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-07-16 12:29:11.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:29:11.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:29:11.674 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 19.0085ms
+2022-07-16 12:29:11.676 +03:00 [INF] Sending file. Request path: '/RazorPagesGB.styles.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\obj\Debug\net6.0\scopedcss\bundle\RazorPagesGB.styles.css'
+2022-07-16 12:29:11.676 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\js\site.js'
+2022-07-16 12:29:11.676 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\css\site.css'
+2022-07-16 12:29:11.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo - - - 200 1129 text/css 44.7124ms
+2022-07-16 12:29:11.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 46.7280ms
+2022-07-16 12:29:11.683 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 28.4906ms
+2022-07-16 12:29:11.684 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2022-07-16 12:29:11.686 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2022-07-16 12:29:11.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 53.3978ms
+2022-07-16 12:29:11.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 50.8142ms
+2022-07-16 12:29:11.704 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery\dist\jquery.min.js'
+2022-07-16 12:29:11.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 72.7372ms
+2022-07-16 12:29:11.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.2332ms
+2022-07-16 12:29:11.775 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-16 12:29:11.782 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\favicon.ico'
+2022-07-16 12:29:11.783 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 5430 image/x-icon 8.1596ms
+2022-07-16 12:29:13.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-16 12:29:13.237 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 12:29:13.238 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 12:29:13.250 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:29:13.270 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.5335ms.
+2022-07-16 12:29:13.272 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-16 12:29:13.284 +03:00 [INF] Executed ViewResult - view Products executed in 12.5781ms.
+2022-07-16 12:29:13.286 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 45.5163ms
+2022-07-16 12:29:13.286 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 12:29:13.289 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 53.3981 ms
+2022-07-16 12:29:13.291 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 57.5791ms
+2022-07-16 12:29:13.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:29:13.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.0193ms
+2022-07-16 12:29:13.312 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:29:13.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.4239ms
+2022-07-16 12:29:14.181 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Home/Privacy - -
+2022-07-16 12:29:14.183 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Privacy (RazorPagesGB)'
+2022-07-16 12:29:14.185 +03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 12:29:14.194 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Privacy (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:29:14.196 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Privacy (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1389ms.
+2022-07-16 12:29:14.197 +03:00 [INF] Executing ViewResult, running view Privacy.
+2022-07-16 12:29:14.206 +03:00 [INF] Executed ViewResult - view Privacy executed in 9.3061ms.
+2022-07-16 12:29:14.207 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Privacy (RazorPagesGB) in 21.0161ms
+2022-07-16 12:29:14.208 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Privacy (RazorPagesGB)'
+2022-07-16 12:29:14.209 +03:00 [INF] HTTP GET /Home/Privacy responded 200 in 26.3467 ms
+2022-07-16 12:29:14.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Home/Privacy - - - 200 - text/html;+charset=utf-8 30.8925ms
+2022-07-16 12:29:14.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:29:14.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.0698ms
+2022-07-16 12:29:14.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:29:14.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.7409ms
+2022-07-16 12:29:15.007 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 12:29:15.009 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:29:15.010 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 12:29:15.020 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:29:15.021 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0141ms.
+2022-07-16 12:29:15.022 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 12:29:15.026 +03:00 [INF] Executed ViewResult - view Index executed in 3.3413ms.
+2022-07-16 12:29:15.027 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 14.3359ms
+2022-07-16 12:29:15.028 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:29:15.029 +03:00 [INF] HTTP GET / responded 200 in 19.1978 ms
+2022-07-16 12:29:15.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 23.3217ms
+2022-07-16 12:29:15.040 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:29:15.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.0666ms
+2022-07-16 12:29:15.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:29:15.054 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.6794ms
+2022-07-16 12:29:22.590 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 12:29:22.802 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-16 12:29:22.803 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-16 12:29:22.807 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 12:29:22.808 +03:00 [INF] Hosting environment: Development
+2022-07-16 12:29:22.808 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-16 12:29:23.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 12:29:23.092 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:29:23.114 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 12:29:23.151 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:29:23.160 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.7635ms.
+2022-07-16 12:29:23.171 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 12:29:23.293 +03:00 [INF] Executed ViewResult - view Index executed in 123.4007ms.
+2022-07-16 12:29:23.300 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 184.8318ms
+2022-07-16 12:29:23.302 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:29:23.306 +03:00 [INF] HTTP GET / responded 200 in 235.8690 ms
+2022-07-16 12:29:23.337 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 301.6952ms
+2022-07-16 12:29:23.344 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:29:23.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.8363ms
+2022-07-16 12:29:23.355 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:29:23.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.9575ms
+2022-07-16 12:52:09.140 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 12:52:09.490 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-16 12:52:09.491 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-16 12:52:09.493 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 12:52:09.494 +03:00 [INF] Hosting environment: Development
+2022-07-16 12:52:09.494 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-16 12:52:09.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 12:52:09.946 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:52:09.975 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 12:52:10.051 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:52:10.060 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3844ms.
+2022-07-16 12:52:10.068 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 12:52:10.281 +03:00 [INF] Executed ViewResult - view Index executed in 213.4461ms.
+2022-07-16 12:52:10.288 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 310.7723ms
+2022-07-16 12:52:10.289 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 12:52:10.293 +03:00 [INF] HTTP GET / responded 200 in 365.4004 ms
+2022-07-16 12:52:10.363 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 487.6579ms
+2022-07-16 12:52:10.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:52:10.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.2925ms
+2022-07-16 12:52:10.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:52:10.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.6992ms
+2022-07-16 12:52:12.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-16 12:52:12.494 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 12:52:12.496 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 12:52:12.507 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 12:52:12.528 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 19.2777ms.
+2022-07-16 12:52:12.531 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-16 12:52:12.542 +03:00 [INF] Executed ViewResult - view Products executed in 12.2978ms.
+2022-07-16 12:52:12.544 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 46.1243ms
+2022-07-16 12:52:12.545 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 12:52:12.545 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 52.4923 ms
+2022-07-16 12:52:12.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 56.4574ms
+2022-07-16 12:52:12.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 12:52:12.560 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.0169ms
+2022-07-16 12:52:12.569 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 12:52:12.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0494ms
+2022-07-16 13:35:43.039 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 13:35:46.789 +03:00 [FTL] Server crashed!
+System.Collections.Generic.KeyNotFoundException: The given key 'RazorPagesGB.Domain.ProductAdded' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at RazorPagesGB.Domain.DomainEvents.DomainEventsManager.Register[T](Action`1 eventHandler) in C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\Domain\DomainEvents\DomainEventsManager.cs:line 10
+   at RazorPagesGB.Domain.DomainEvents.EventConsumers.ProductAddedEmailSender..ctor(IServiceProvider serviceProvider, ILogger`1 logger) in C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\Domain\DomainEvents\EventConsumers\ProductAddedEmailSender.cs:line 19
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Microsoft.AspNetCore.Builder.WebApplication.Run(String url)
+   at Program.<Main>$(String[] args) in C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\Program.cs:line 59
+2022-07-16 13:35:46.928 +03:00 [INF] Shut doen complete.
+2022-07-16 13:36:00.908 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 13:36:01.074 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-16 13:36:01.075 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-16 13:36:01.080 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 13:36:01.081 +03:00 [INF] Hosting environment: Development
+2022-07-16 13:36:01.082 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-16 13:36:01.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 13:36:01.478 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 13:36:01.500 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 13:36:01.543 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:36:01.552 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4153ms.
+2022-07-16 13:36:01.560 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 13:36:01.680 +03:00 [INF] Executed ViewResult - view Index executed in 120.716ms.
+2022-07-16 13:36:01.687 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 183.8955ms
+2022-07-16 13:36:01.689 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 13:36:01.693 +03:00 [INF] HTTP GET / responded 200 in 236.5510 ms
+2022-07-16 13:36:01.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 303.5655ms
+2022-07-16 13:36:01.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:36:01.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.9109ms
+2022-07-16 13:36:01.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:36:01.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.8455ms
+2022-07-16 13:37:02.417 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 13:37:02.601 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-16 13:37:02.602 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-16 13:37:02.605 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 13:37:02.606 +03:00 [INF] Hosting environment: Development
+2022-07-16 13:37:02.606 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-16 13:37:02.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 13:37:02.930 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 13:37:02.951 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 13:37:02.989 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:37:02.997 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5383ms.
+2022-07-16 13:37:03.005 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 13:37:03.130 +03:00 [INF] Executed ViewResult - view Index executed in 124.6037ms.
+2022-07-16 13:37:03.136 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 182.1587ms
+2022-07-16 13:37:03.137 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 13:37:03.141 +03:00 [INF] HTTP GET / responded 200 in 233.0852 ms
+2022-07-16 13:37:03.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 301.2288ms
+2022-07-16 13:37:03.174 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:37:03.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.1431ms
+2022-07-16 13:37:03.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:37:03.204 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.3196ms
+2022-07-16 13:37:19.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-16 13:37:19.642 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:37:19.644 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:37:19.654 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:37:19.661 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.119ms.
+2022-07-16 13:37:19.663 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-16 13:37:19.678 +03:00 [INF] Executed ViewResult - view Products executed in 15.8097ms.
+2022-07-16 13:37:19.679 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 33.8779ms
+2022-07-16 13:37:19.681 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:37:19.681 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 41.2396 ms
+2022-07-16 13:37:19.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 45.0822ms
+2022-07-16 13:37:19.696 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:37:19.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.2137ms
+2022-07-16 13:37:19.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:37:19.711 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.7134ms
+2022-07-16 13:37:20.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - -
+2022-07-16 13:37:20.438 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-16 13:37:20.440 +03:00 [INF] Route matched with {action = "ProductsAdd", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdd() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:37:20.449 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:37:20.450 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1395ms.
+2022-07-16 13:37:20.452 +03:00 [INF] Executing ViewResult, running view ProductsAdd.
+2022-07-16 13:37:20.493 +03:00 [INF] Executed ViewResult - view ProductsAdd executed in 40.8951ms.
+2022-07-16 13:37:20.494 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) in 52.755ms
+2022-07-16 13:37:20.495 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-16 13:37:20.496 +03:00 [INF] HTTP GET /Catalog/ProductsAdd responded 200 in 58.2754 ms
+2022-07-16 13:37:20.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - - - 200 - text/html;+charset=utf-8 62.2252ms
+2022-07-16 13:37:20.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery-validation/dist/jquery.validate.min.js - -
+2022-07-16 13:37:20.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2022-07-16 13:37:20.507 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:37:20.509 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.9762ms
+2022-07-16 13:37:20.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:37:20.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0691ms
+2022-07-16 13:37:20.530 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2022-07-16 13:37:20.530 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2022-07-16 13:37:20.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23264 application/javascript 24.5019ms
+2022-07-16 13:37:20.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5873 application/javascript 25.6401ms
+2022-07-16 13:37:25.547 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 1321
+2022-07-16 13:37:25.549 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:37:25.567 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Products(RazorPagesGB.Models.Product) on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:37:25.596 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:37:25.884 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 286.6056ms.
+2022-07-16 13:37:25.886 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog/Products.
+2022-07-16 13:37:25.887 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 318.5856ms
+2022-07-16 13:37:25.888 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:37:25.888 +03:00 [INF] HTTP POST /Catalog/Products responded 302 in 339.5743 ms
+2022-07-16 13:37:25.890 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 1321 - 302 0 - 343.3944ms
+2022-07-16 13:37:25.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-16 13:37:25.894 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:37:25.895 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:37:25.904 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:37:25.906 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0203ms.
+2022-07-16 13:37:25.907 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-16 13:37:25.914 +03:00 [INF] Executed ViewResult - view Products executed in 6.7902ms.
+2022-07-16 13:37:25.915 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 18.8405ms
+2022-07-16 13:37:25.916 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:37:25.917 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 22.7308 ms
+2022-07-16 13:37:25.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 25.7253ms
+2022-07-16 13:37:25.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:37:25.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.1490ms
+2022-07-16 13:37:25.940 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:37:25.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1299ms
+2022-07-16 13:38:14.307 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-16 13:38:14.495 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-16 13:38:14.496 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-16 13:38:14.499 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-16 13:38:14.500 +03:00 [INF] Hosting environment: Development
+2022-07-16 13:38:14.501 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-16 13:38:15.110 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-16 13:38:15.166 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 13:38:15.191 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-16 13:38:15.231 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:38:15.239 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4069ms.
+2022-07-16 13:38:15.248 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-16 13:38:15.370 +03:00 [INF] Executed ViewResult - view Index executed in 122.6106ms.
+2022-07-16 13:38:15.377 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 183.8834ms
+2022-07-16 13:38:15.379 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-16 13:38:15.383 +03:00 [INF] HTTP GET / responded 200 in 238.3744 ms
+2022-07-16 13:38:15.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 306.9614ms
+2022-07-16 13:38:15.420 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:38:15.425 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 4.6304ms
+2022-07-16 13:38:15.432 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:38:15.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9573ms
+2022-07-16 13:38:16.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-16 13:38:16.370 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:38:16.371 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:38:16.382 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:38:16.390 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 6.4019ms.
+2022-07-16 13:38:16.393 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-16 13:38:16.407 +03:00 [INF] Executed ViewResult - view Products executed in 14.3241ms.
+2022-07-16 13:38:16.408 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 35.0185ms
+2022-07-16 13:38:16.409 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:38:16.410 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 45.3489 ms
+2022-07-16 13:38:16.412 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 49.3018ms
+2022-07-16 13:38:16.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:38:16.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:38:16.439 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 5.0221ms
+2022-07-16 13:38:16.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.2845ms
+2022-07-16 13:38:17.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - -
+2022-07-16 13:38:17.452 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-16 13:38:17.453 +03:00 [INF] Route matched with {action = "ProductsAdd", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdd() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:38:17.463 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:38:17.464 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1399ms.
+2022-07-16 13:38:17.466 +03:00 [INF] Executing ViewResult, running view ProductsAdd.
+2022-07-16 13:38:17.502 +03:00 [INF] Executed ViewResult - view ProductsAdd executed in 36.2756ms.
+2022-07-16 13:38:17.503 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) in 48.181ms
+2022-07-16 13:38:17.504 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-16 13:38:17.505 +03:00 [INF] HTTP GET /Catalog/ProductsAdd responded 200 in 53.6008 ms
+2022-07-16 13:38:17.507 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - - - 200 - text/html;+charset=utf-8 57.2466ms
+2022-07-16 13:38:17.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:38:17.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.1511ms
+2022-07-16 13:38:17.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:38:17.530 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.6694ms
+2022-07-16 13:38:23.862 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 1324
+2022-07-16 13:38:23.864 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:38:23.881 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Products(RazorPagesGB.Models.Product) on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:38:23.911 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:38:24.025 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 111.9367ms.
+2022-07-16 13:38:24.026 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog/Products.
+2022-07-16 13:38:24.027 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 143.9764ms
+2022-07-16 13:38:24.028 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:38:24.029 +03:00 [INF] HTTP POST /Catalog/Products responded 302 in 164.5949 ms
+2022-07-16 13:38:24.030 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 1324 - 302 0 - 168.4733ms
+2022-07-16 13:38:24.032 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-16 13:38:24.033 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:38:24.034 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-16 13:38:24.043 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-16 13:38:24.044 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0181ms.
+2022-07-16 13:38:24.046 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-16 13:38:24.052 +03:00 [INF] Executed ViewResult - view Products executed in 6.8961ms.
+2022-07-16 13:38:24.054 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 18.04ms
+2022-07-16 13:38:24.054 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-16 13:38:24.055 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 21.9178 ms
+2022-07-16 13:38:24.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 25.2292ms
+2022-07-16 13:38:24.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-16 13:38:24.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-16 13:38:24.069 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.0626ms
+2022-07-16 13:38:24.073 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.5959ms

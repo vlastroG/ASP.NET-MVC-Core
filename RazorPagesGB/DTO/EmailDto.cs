@@ -1,4 +1,4 @@
-﻿namespace RazorPagesGB.Models
+﻿namespace RazorPagesGB.DTO
 {
     public class EmailDto
     {

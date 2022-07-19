@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RazorPagesGB.Domain;
+using RazorPagesGB.DTO;
 using RazorPagesGB.Models;
 using RazorPagesGB.Services.EmailService;
 
@@ -28,15 +30,15 @@ namespace RazorPagesGB.Controllers
         {
             _catalog.ProductAdd(product);
             // добавить отправку email
-            string body =
-                "<h1>В каталог добавлен следующий товар:</h1>" +
-                product.ToHTMLString();
-            await _emailService.SendAsync(new EmailDto()
-            {
-                Body = body,
-                Subject = "Добавлен товар",
-                To = _to
-            });
+            //string body =
+            //    "<h1>В каталог добавлен следующий товар:</h1>" +
+            //    product.ToHTMLString();
+            //await _emailService.SendAsync(new EmailDto()
+            //{
+            //    Body = body,
+            //    Subject = "Добавлен товар",
+            //    To = _to
+            //});
             return RedirectToAction("Products");
         }
 
