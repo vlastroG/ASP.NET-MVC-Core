@@ -45,6 +45,21 @@ try
     }
 
     app.UseHttpsRedirection();
+
+    app.Use(async (HttpContext context, Func<Task> next) =>
+    {
+        var userAgent = context.Request.Headers.UserAgent.ToString().ToLower();
+        if (!userAgent.Contains("edg"))
+        {
+            context.Response.ContentType = "text/html; charset=UTF-8";
+            await context.Response.WriteAsync(
+                "<h1>Your browser is not suppored:(</h1>" +
+                "<h2>Try <a href=\"https://www.microsoft.com/en-us/edge\">Microsoft Edge :D</a></h2>");
+            return;
+        }
+        await next();
+    });
+
     app.UseStaticFiles();
     app.UseSerilogRequestLogging();
 

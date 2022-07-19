@@ -1,0 +1,113 @@
+2022-07-19 22:05:18.773 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:05:19.127 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:05:19.128 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:05:19.131 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:05:19.132 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:05:19.133 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:05:19.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:05:19.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/plain;+charset=UTF-8 102.4959ms
+2022-07-19 22:05:32.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:05:32.993 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-19 22:05:33.023 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-19 22:05:33.098 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:05:33.108 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4441ms.
+2022-07-19 22:05:33.116 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 22:05:33.318 +03:00 [INF] Executed ViewResult - view Index executed in 202.4917ms.
+2022-07-19 22:05:33.325 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 300.148ms
+2022-07-19 22:05:33.327 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-19 22:05:33.331 +03:00 [INF] HTTP GET / responded 200 in 357.6118 ms
+2022-07-19 22:05:33.362 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 393.3748ms
+2022-07-19 22:05:33.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery/dist/jquery.min.js - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-07-19 22:05:33.392 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:05:33.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:05:33.401 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.1936ms
+2022-07-19 22:05:33.401 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\css\site.css'
+2022-07-19 22:05:33.401 +03:00 [INF] Sending file. Request path: '/RazorPagesGB.styles.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\obj\Debug\net6.0\scopedcss\bundle\RazorPagesGB.styles.css'
+2022-07-19 22:05:33.401 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\js\site.js'
+2022-07-19 22:05:33.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 44.8238ms
+2022-07-19 22:05:33.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo - - - 200 1129 text/css 49.9251ms
+2022-07-19 22:05:33.415 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2022-07-19 22:05:33.415 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2022-07-19 22:05:33.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 51.2803ms
+2022-07-19 22:05:33.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 53.4165ms
+2022-07-19 22:05:33.419 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery\dist\jquery.min.js'
+2022-07-19 22:05:33.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 58.7294ms
+2022-07-19 22:05:33.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 59.7070ms
+2022-07-19 22:05:33.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.5497ms
+2022-07-19 22:05:33.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-19 22:05:33.491 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\favicon.ico'
+2022-07-19 22:05:33.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 5430 image/x-icon 7.4594ms
+2022-07-19 22:05:37.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-19 22:05:37.466 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:05:37.468 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:05:37.480 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:05:37.501 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.4441ms.
+2022-07-19 22:05:37.503 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 22:05:37.511 +03:00 [INF] Executed ViewResult - view Products executed in 8.5338ms.
+2022-07-19 22:05:37.512 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 42.3734ms
+2022-07-19 22:05:37.513 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:05:37.514 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 49.5485 ms
+2022-07-19 22:05:37.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 53.7147ms
+2022-07-19 22:05:37.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:05:37.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:05:37.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.1645ms
+2022-07-19 22:05:37.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.5341ms
+2022-07-19 22:05:42.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:05:42.221 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/plain;+charset=UTF-8 1.4207ms
+2022-07-19 22:05:42.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-19 22:05:42.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 - text/plain;+charset=UTF-8 1.2421ms
+2022-07-19 22:05:42.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-19 22:05:42.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 - text/plain;+charset=UTF-8 1.1228ms
+2022-07-19 22:09:51.311 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:09:51.503 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:09:51.505 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:09:51.508 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:09:51.510 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:09:51.511 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:09:51.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:09:51.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/plain;+charset=UTF-8 60.1103ms
+2022-07-19 22:10:41.206 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:10:41.416 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:10:41.418 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:10:41.422 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:10:41.424 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:10:41.425 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:10:41.751 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:10:41.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/;+charset=UTF-8 69.1668ms
+2022-07-19 22:10:56.119 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:10:56.305 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:10:56.306 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:10:56.309 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:10:56.310 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:10:56.310 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:10:56.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:10:56.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - charset=UTF-8 59.8396ms
+2022-07-19 22:11:38.576 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:11:38.751 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:11:38.752 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:11:38.755 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:11:38.756 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:11:38.758 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:11:39.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:11:39.266 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 139.4155ms
+2022-07-19 22:12:54.425 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:12:54.629 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:12:54.633 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:12:54.637 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:12:54.638 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:12:54.639 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:12:54.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:12:55.028 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 137.4688ms
+2022-07-19 22:14:10.042 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:14:10.205 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:14:10.206 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:14:10.209 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:14:10.210 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:14:10.210 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:14:10.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:14:10.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 139.3082ms
