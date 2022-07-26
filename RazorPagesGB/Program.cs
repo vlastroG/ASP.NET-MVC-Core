@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.HttpLogging;
 using RazorPagesGB.Configs;
 using RazorPagesGB.Domain.DomainEvents.EventConsumers;
 using RazorPagesGB.Services.EmailBackgroundService;
@@ -23,6 +24,13 @@ try
     });
 
     // Add services to the container.
+    builder.Services.AddHttpLogging(options =>
+    {
+        options.LoggingFields = HttpLoggingFields.RequestHeaders
+                                | HttpLoggingFields.RequestBody
+                                | HttpLoggingFields.ResponseHeaders
+                                | HttpLoggingFields.ResponseBody;
+    });
     builder.Services.AddControllersWithViews();
     builder.Services.Configure<SmtpConfig>(builder.Configuration.GetSection("SmtpConfig"));
 
@@ -43,8 +51,24 @@ try
         // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
         app.UseHsts();
     }
+    app.UseHttpLogging();
 
     app.UseHttpsRedirection();
+
+    app.Use(async (HttpContext context, Func<Task> next) =>
+    {
+        var userAgent = context.Request.Headers.UserAgent.ToString().ToLower();
+        if (!userAgent.Contains("edg"))
+        {
+            context.Response.ContentType = "text/html; charset=UTF-8";
+            await context.Response.WriteAsync(
+                "<h1>Your browser is not suppored:(</h1>" +
+                "<h2>Try <a href=\"https://www.microsoft.com/en-us/edge\">Microsoft Edge :D</a></h2>");
+            return;
+        }
+        await next();
+    });
+
     app.UseStaticFiles();
     app.UseSerilogRequestLogging();
 

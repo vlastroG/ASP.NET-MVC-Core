@@ -1,0 +1,1378 @@
+2022-07-19 22:05:18.773 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:05:19.127 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:05:19.128 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:05:19.131 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:05:19.132 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:05:19.133 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:05:19.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:05:19.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/plain;+charset=UTF-8 102.4959ms
+2022-07-19 22:05:32.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:05:32.993 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-19 22:05:33.023 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-19 22:05:33.098 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:05:33.108 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4441ms.
+2022-07-19 22:05:33.116 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 22:05:33.318 +03:00 [INF] Executed ViewResult - view Index executed in 202.4917ms.
+2022-07-19 22:05:33.325 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 300.148ms
+2022-07-19 22:05:33.327 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-19 22:05:33.331 +03:00 [INF] HTTP GET / responded 200 in 357.6118 ms
+2022-07-19 22:05:33.362 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 393.3748ms
+2022-07-19 22:05:33.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery/dist/jquery.min.js - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-07-19 22:05:33.364 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-07-19 22:05:33.392 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:05:33.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:05:33.401 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.1936ms
+2022-07-19 22:05:33.401 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\css\site.css'
+2022-07-19 22:05:33.401 +03:00 [INF] Sending file. Request path: '/RazorPagesGB.styles.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\obj\Debug\net6.0\scopedcss\bundle\RazorPagesGB.styles.css'
+2022-07-19 22:05:33.401 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\js\site.js'
+2022-07-19 22:05:33.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 44.8238ms
+2022-07-19 22:05:33.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo - - - 200 1129 text/css 49.9251ms
+2022-07-19 22:05:33.415 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2022-07-19 22:05:33.415 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2022-07-19 22:05:33.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 51.2803ms
+2022-07-19 22:05:33.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 application/javascript 53.4165ms
+2022-07-19 22:05:33.419 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery\dist\jquery.min.js'
+2022-07-19 22:05:33.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 58.7294ms
+2022-07-19 22:05:33.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery/dist/jquery.min.js - - - 200 89478 application/javascript 59.7070ms
+2022-07-19 22:05:33.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.5497ms
+2022-07-19 22:05:33.487 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-19 22:05:33.491 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\favicon.ico'
+2022-07-19 22:05:33.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 5430 image/x-icon 7.4594ms
+2022-07-19 22:05:37.463 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-19 22:05:37.466 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:05:37.468 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:05:37.480 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:05:37.501 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 18.4441ms.
+2022-07-19 22:05:37.503 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 22:05:37.511 +03:00 [INF] Executed ViewResult - view Products executed in 8.5338ms.
+2022-07-19 22:05:37.512 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 42.3734ms
+2022-07-19 22:05:37.513 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:05:37.514 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 49.5485 ms
+2022-07-19 22:05:37.516 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 53.7147ms
+2022-07-19 22:05:37.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:05:37.524 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:05:37.525 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.1645ms
+2022-07-19 22:05:37.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.5341ms
+2022-07-19 22:05:42.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:05:42.221 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/plain;+charset=UTF-8 1.4207ms
+2022-07-19 22:05:42.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-19 22:05:42.276 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 - text/plain;+charset=UTF-8 1.2421ms
+2022-07-19 22:05:42.279 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/favicon.ico - -
+2022-07-19 22:05:42.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/favicon.ico - - - 200 - text/plain;+charset=UTF-8 1.1228ms
+2022-07-19 22:09:51.311 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:09:51.503 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:09:51.505 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:09:51.508 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:09:51.510 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:09:51.511 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:09:51.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:09:51.812 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/plain;+charset=UTF-8 60.1103ms
+2022-07-19 22:10:41.206 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:10:41.416 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:10:41.418 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:10:41.422 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:10:41.424 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:10:41.425 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:10:41.751 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:10:41.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/;+charset=UTF-8 69.1668ms
+2022-07-19 22:10:56.119 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:10:56.305 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:10:56.306 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:10:56.309 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:10:56.310 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:10:56.310 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:10:56.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:10:56.579 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - charset=UTF-8 59.8396ms
+2022-07-19 22:11:38.576 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:11:38.751 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:11:38.752 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:11:38.755 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:11:38.756 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:11:38.758 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:11:39.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:11:39.266 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 139.4155ms
+2022-07-19 22:12:54.425 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:12:54.629 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:12:54.633 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:12:54.637 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:12:54.638 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:12:54.639 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:12:54.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:12:55.028 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 137.4688ms
+2022-07-19 22:14:10.042 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:14:10.205 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:14:10.206 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:14:10.209 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:14:10.210 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:14:10.210 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:14:10.544 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:14:10.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 139.3082ms
+2022-07-19 22:28:51.546 +03:00 [INF] User profile is available. Using 'C:\Users\vlast\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 22:28:51.733 +03:00 [INF] Now listening on: https://localhost:7076
+2022-07-19 22:28:51.734 +03:00 [INF] Now listening on: http://localhost:5076
+2022-07-19 22:28:51.737 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 22:28:51.738 +03:00 [INF] Hosting environment: Development
+2022-07-19 22:28:51.738 +03:00 [INF] Content root path: C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\
+2022-07-19 22:28:52.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:28:52.086 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,en-RU;q=0.6,en-US;q=0.5
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:28:52.097 +03:00 [INF] Response:
+Content-Type: text/html; charset=UTF-8
+2022-07-19 22:28:52.199 +03:00 [INF] ResponseBody: <h1>Your browser is not suppored:(</h1><h2>Try <a href="https://www.microsoft.com/en-us/edge">Microsoft Edge :D</a></h2>
+2022-07-19 22:28:52.211 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=UTF-8 158.1254ms
+2022-07-19 22:29:03.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/ - -
+2022-07-19 22:29:03.792 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:03.817 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-19 22:29:03.839 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller RazorPagesGB.Controllers.HomeController (RazorPagesGB).
+2022-07-19 22:29:03.881 +03:00 [INF] Executing action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:29:03.889 +03:00 [INF] Executed action method RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4282ms.
+2022-07-19 22:29:03.897 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 22:29:03.951 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+2022-07-19 22:29:03.965 +03:00 [INF] Executed ViewResult - view Index executed in 69.0585ms.
+2022-07-19 22:29:03.972 +03:00 [INF] Executed action RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB) in 129.7559ms
+2022-07-19 22:29:03.973 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.HomeController.Index (RazorPagesGB)'
+2022-07-19 22:29:03.977 +03:00 [INF] HTTP GET / responded 200 in 179.7104 ms
+2022-07-19 22:29:03.978 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:29:03.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/ - - - 200 - text/html;+charset=utf-8 194.4970ms
+2022-07-19 22:29:03.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:29:03.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:29:04.003 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.8404ms
+2022-07-19 22:29:04.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.1068ms
+2022-07-19 22:29:06.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-19 22:29:06.741 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:06.745 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:29:06.746 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:29:06.758 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:29:06.765 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.9216ms.
+2022-07-19 22:29:06.767 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 22:29:06.772 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+2022-07-19 22:29:06.778 +03:00 [INF] Executed ViewResult - view Products executed in 12.195ms.
+2022-07-19 22:29:06.780 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 31.5626ms
+2022-07-19 22:29:06.781 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:29:06.781 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 38.7080 ms
+2022-07-19 22:29:06.783 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Products</h1>
+
+<p>
+    <a href="/Catalog/ProductsAdd">Add new product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:29:06.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 47.1796ms
+2022-07-19 22:29:06.793 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:29:06.793 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:29:06.798 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 2.9854ms
+2022-07-19 22:29:06.800 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.7609ms
+2022-07-19 22:29:07.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - -
+2022-07-19 22:29:07.844 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:07.847 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-19 22:29:07.849 +03:00 [INF] Route matched with {action = "ProductsAdd", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdd() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:29:07.858 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:29:07.859 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1203ms.
+2022-07-19 22:29:07.862 +03:00 [INF] Executing ViewResult, running view ProductsAdd.
+2022-07-19 22:29:07.897 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+2022-07-19 22:29:07.901 +03:00 [INF] Executed ViewResult - view ProductsAdd executed in 40.0031ms.
+2022-07-19 22:29:07.902 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) in 51.8918ms
+2022-07-19 22:29:07.903 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-19 22:29:07.904 +03:00 [INF] HTTP GET /Catalog/ProductsAdd responded 200 in 57.5654 ms
+2022-07-19 22:29:07.905 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductsAdd - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Add products</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" action="/Catalog/Products">
+            
+            <div class="form-group">
+                <label class="control-label" for="Name">Name</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Description">Description</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Description field is required." id="Description" name="Description" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Price">Price</label>
+                <input class="form-control" type="text" data-val="true" data-val-number="The field Price must be a number." data-val-required="The Price field is required." id="Price" name="Price" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Price" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Image">Image</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Image field is required." id="Image" name="Image" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Image" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KyY6ZFpRf9HiN-UKT56RHPKKCt6jMjPvZ1WmdBZoGWJmPkRBXL1KRAoUIJrlAuBU_hD0bCKf8NGA0zU1tmXz7eRLhZLC9Ml2u6MZaCG1RL_DBEeX2Bh9P7F1bj8jwTYIGDABug7KsSZjO0wjN3fH6I" /></form>
+    </div>
+</div>
+
+<div>
+    <a href="/Catalog/Products">Back to List</a>
+</div>
+
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:29:07.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - - - 200 - text/html;+charset=utf-8 71.2157ms
+2022-07-19 22:29:07.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - -
+2022-07-19 22:29:07.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:29:07.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/lib/jquery-validation/dist/jquery.validate.min.js - -
+2022-07-19 22:29:07.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:29:07.920 +03:00 [INF] Request:
+Accept: */*
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:07.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 2.0562ms
+2022-07-19 22:29:07.924 +03:00 [INF] Request:
+Accept: */*
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:07.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8890ms
+2022-07-19 22:29:07.931 +03:00 [INF] Response:
+Content-Type: application/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 19 Jun 2022 10:21:53 GMT
+Content-Length: 5873
+2022-07-19 22:29:07.931 +03:00 [INF] Response:
+Content-Type: application/javascript
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sun, 19 Jun 2022 10:21:53 GMT
+Content-Length: 23264
+2022-07-19 22:29:07.947 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2022-07-19 22:29:07.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - - - 200 5873 application/javascript 30.5963ms
+2022-07-19 22:29:07.952 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\vlast\source\repos\ASP.NET-MVC-Core\RazorPagesGB\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2022-07-19 22:29:07.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/lib/jquery-validation/dist/jquery.validate.min.js - - - 200 23264 application/javascript 34.5941ms
+2022-07-19 22:29:49.045 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 471
+2022-07-19 22:29:49.047 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 471
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:49.049 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:29:49.069 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Products(RazorPagesGB.Models.Product) on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:29:49.099 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:29:49.364 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 263.7616ms.
+2022-07-19 22:29:49.366 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog/Products.
+2022-07-19 22:29:49.367 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 296.9746ms
+2022-07-19 22:29:49.368 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:29:49.369 +03:00 [INF] HTTP POST /Catalog/Products responded 302 in 320.0024 ms
+2022-07-19 22:29:49.370 +03:00 [INF] Response:
+Location: /Catalog/Products
+2022-07-19 22:29:49.371 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 471 - 302 0 - 326.5181ms
+2022-07-19 22:29:49.376 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-19 22:29:49.377 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2022-07-19 22:29:49.378 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:29:49.379 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:29:49.388 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:29:49.390 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0175ms.
+2022-07-19 22:29:49.391 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 22:29:49.393 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+2022-07-19 22:29:49.396 +03:00 [INF] Executed ViewResult - view Products executed in 5.3882ms.
+2022-07-19 22:29:49.397 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 16.6844ms
+2022-07-19 22:29:49.398 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:29:49.399 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 20.8238 ms
+2022-07-19 22:29:49.400 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Products</h1>
+
+<p>
+    <a href="/Catalog/ProductsAdd">Add new product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>
+                    1 |
+                </td>
+                <td>
+                    gfgfg |
+                </td>
+                <td>
+                    erwqhq43e |
+                </td>
+                <td>
+                    123213 |
+                </td>
+                <td>
+                    <img src="https://yandex.ru/images/search?pos=2&amp;from=tabbar&amp;img_url=https%3A%2F%2Fgametarget.ru%2Fwp-content%2Fuploads%2Fmedia%2Ffiles%2FMass-Effect-race.jpg&amp;text=mass&#x2B;effect&amp;rpt=simage&amp;lr=10678" alt="Product photo.">
+                </td>
+                <td>
+                    <a href="/Catalog/ProductDelete/1">Delete</a>
+                </td>
+            </tr>
+    </tbody>
+</table>
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:29:49.404 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 28.8393ms
+2022-07-19 22:29:49.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:29:49.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:29:49.415 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.5272ms
+2022-07-19 22:29:49.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9856ms
+2022-07-19 22:29:53.001 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - -
+2022-07-19 22:29:53.004 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:29:53.005 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-19 22:29:53.006 +03:00 [INF] Route matched with {action = "ProductsAdd", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdd() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:29:53.016 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:29:53.018 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0317ms.
+2022-07-19 22:29:53.020 +03:00 [INF] Executing ViewResult, running view ProductsAdd.
+2022-07-19 22:29:53.022 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2022-07-19 22:29:53.026 +03:00 [INF] Executed ViewResult - view ProductsAdd executed in 6.1547ms.
+2022-07-19 22:29:53.027 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) in 19.0897ms
+2022-07-19 22:29:53.028 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-19 22:29:53.029 +03:00 [INF] HTTP GET /Catalog/ProductsAdd responded 200 in 23.1844 ms
+2022-07-19 22:29:53.030 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductsAdd - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Add products</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" action="/Catalog/Products">
+            
+            <div class="form-group">
+                <label class="control-label" for="Name">Name</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Description">Description</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Description field is required." id="Description" name="Description" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Price">Price</label>
+                <input class="form-control" type="text" data-val="true" data-val-number="The field Price must be a number." data-val-required="The Price field is required." id="Price" name="Price" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Price" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Image">Image</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Image field is required." id="Image" name="Image" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Image" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KyY6ZFpRf9HiN-UKT56RHNaPYQaKpmZXcp3lNQCn_5cwXaBL64Sp6DQluZVsBtlqQI7-qG7pPMxX2hG7iCFA7ib5zqxwWTS-b-SHog3AXcL8TuF2abQKb_MbUH8pJvGQMSw72638JhCaP-2eAtCqj8" /></form>
+    </div>
+</div>
+
+<div>
+    <a href="/Catalog/Products">Back to List</a>
+</div>
+
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:29:53.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - - - 200 - text/html;+charset=utf-8 33.2462ms
+2022-07-19 22:29:53.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:29:53.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:29:53.043 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.2215ms
+2022-07-19 22:29:53.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1146ms
+2022-07-19 22:30:04.203 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 339
+2022-07-19 22:30:04.206 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 339
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:30:04.207 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:04.208 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Products(RazorPagesGB.Models.Product) on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:30:04.219 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:30:04.221 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.7406ms.
+2022-07-19 22:30:04.223 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog/Products.
+2022-07-19 22:30:04.223 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 12.6001ms
+2022-07-19 22:30:04.224 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:04.225 +03:00 [INF] HTTP POST /Catalog/Products responded 302 in 17.7379 ms
+2022-07-19 22:30:04.227 +03:00 [INF] Response:
+Location: /Catalog/Products
+2022-07-19 22:30:04.228 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 339 - 302 0 - 24.2833ms
+2022-07-19 22:30:04.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-19 22:30:04.230 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2022-07-19 22:30:04.231 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:04.232 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:30:04.241 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:30:04.242 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.023ms.
+2022-07-19 22:30:04.244 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 22:30:04.246 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+2022-07-19 22:30:04.249 +03:00 [INF] Executed ViewResult - view Products executed in 4.5362ms.
+2022-07-19 22:30:04.250 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 16.1942ms
+2022-07-19 22:30:04.251 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:04.252 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 20.3038 ms
+2022-07-19 22:30:04.253 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Products</h1>
+
+<p>
+    <a href="/Catalog/ProductsAdd">Add new product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>
+                    2 |
+                </td>
+                <td>
+                    asfde |
+                </td>
+                <td>
+                    adgrf |
+                </td>
+                <td>
+                    321 |
+                </td>
+                <td>
+                    <img src="https://avatars.mds.yandex.net/i?id=52a4bb82fffcd1a3b55b93dc2d5b5e0e-5227334-images-thumbs&amp;n=13" alt="Product photo.">
+                </td>
+                <td>
+                    <a href="/Catalog/ProductDelete/2">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1 |
+                </td>
+                <td>
+                    gfgfg |
+                </td>
+                <td>
+                    erwqhq43e |
+                </td>
+                <td>
+                    123213 |
+                </td>
+                <td>
+                    <img src="https://yandex.ru/images/search?pos=2&amp;from=tabbar&amp;img_url=https%3A%2F%2Fgametarget.ru%2Fwp-content%2Fuploads%2Fmedia%2Ffiles%2FMass-Effect-race.jpg&amp;text=mass&#x2B;effect&amp;rpt=simage&amp;lr=10678" alt="Product photo.">
+                </td>
+                <td>
+                    <a href="/Catalog/ProductDelete/1">Delete</a>
+                </td>
+            </tr>
+    </tbody>
+</table>
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:30:04.257 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 27.9289ms
+2022-07-19 22:30:04.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:30:04.266 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:30:04.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.3690ms
+2022-07-19 22:30:04.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.2099ms
+2022-07-19 22:30:08.379 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - -
+2022-07-19 22:30:08.382 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:30:08.383 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-19 22:30:08.384 +03:00 [INF] Route matched with {action = "ProductsAdd", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdd() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:30:08.394 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:30:08.395 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0153ms.
+2022-07-19 22:30:08.396 +03:00 [INF] Executing ViewResult, running view ProductsAdd.
+2022-07-19 22:30:08.398 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2022-07-19 22:30:08.402 +03:00 [INF] Executed ViewResult - view ProductsAdd executed in 5.2842ms.
+2022-07-19 22:30:08.403 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB) in 17.0918ms
+2022-07-19 22:30:08.404 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.ProductsAdd (RazorPagesGB)'
+2022-07-19 22:30:08.404 +03:00 [INF] HTTP GET /Catalog/ProductsAdd responded 200 in 21.0156 ms
+2022-07-19 22:30:08.406 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductsAdd - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Add products</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" action="/Catalog/Products">
+            
+            <div class="form-group">
+                <label class="control-label" for="Name">Name</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Name field is required." id="Name" name="Name" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Description">Description</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Description field is required." id="Description" name="Description" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Description" data-valmsg-replace="true"></span>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Price">Price</label>
+                <input class="form-control" type="text" data-val="true" data-val-number="The field Price must be a number." data-val-required="The Price field is required." id="Price" name="Price" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Price" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="Image">Image</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="The Image field is required." id="Image" name="Image" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Image" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8KyY6ZFpRf9HiN-UKT56RHND7sSh9TAorPR1yc7Y_b1Lxn-_0aXzNF2cBsa923jbTMTurwGYQm4aG548vrSdzq9Wyv311OrGgwFkCq7tjJ-GtfUse0h3nD8sKxvW0HQby6dtoUwpHqJxvDWRbCBYPE4" /></form>
+    </div>
+</div>
+
+<div>
+    <a href="/Catalog/Products">Back to List</a>
+</div>
+
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:30:08.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/ProductsAdd - - - 200 - text/html;+charset=utf-8 31.1822ms
+2022-07-19 22:30:08.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:30:08.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:30:08.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.1435ms
+2022-07-19 22:30:08.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9108ms
+2022-07-19 22:30:23.591 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 344
+2022-07-19 22:30:23.594 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cache-Control: max-age=0
+Content-Type: application/x-www-form-urlencoded
+Cookie: [Redacted]
+Origin: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+Content-Length: 344
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+2022-07-19 22:30:23.596 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:23.596 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Products(RazorPagesGB.Models.Product) on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:30:23.606 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:30:23.608 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 0.6173ms.
+2022-07-19 22:30:23.609 +03:00 [INF] Executing RedirectResult, redirecting to /Catalog/Products.
+2022-07-19 22:30:23.610 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 12.3008ms
+2022-07-19 22:30:23.611 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:23.612 +03:00 [INF] HTTP POST /Catalog/Products responded 302 in 16.7655 ms
+2022-07-19 22:30:23.614 +03:00 [INF] Response:
+Location: /Catalog/Products
+2022-07-19 22:30:23.614 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7076/Catalog/Products application/x-www-form-urlencoded 344 - 302 0 - 23.4832ms
+2022-07-19 22:30:23.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/Catalog/Products - -
+2022-07-19 22:30:23.617 +03:00 [INF] Request:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:7076
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36 Edg/103.0.1264.62
+:method: [Redacted]
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7
+Cache-Control: max-age=0
+Cookie: [Redacted]
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2022-07-19 22:30:23.618 +03:00 [INF] Executing endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:23.619 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller RazorPagesGB.Controllers.CatalogController (RazorPagesGB).
+2022-07-19 22:30:23.628 +03:00 [INF] Executing action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) - Validation state: "Valid"
+2022-07-19 22:30:23.629 +03:00 [INF] Executed action method RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0177ms.
+2022-07-19 22:30:23.631 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 22:30:23.632 +03:00 [INF] Response:
+Content-Type: text/html; charset=utf-8
+2022-07-19 22:30:23.635 +03:00 [INF] Executed ViewResult - view Products executed in 3.9589ms.
+2022-07-19 22:30:23.636 +03:00 [INF] Executed action RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB) in 15.4881ms
+2022-07-19 22:30:23.637 +03:00 [INF] Executed endpoint 'RazorPagesGB.Controllers.CatalogController.Products (RazorPagesGB)'
+2022-07-19 22:30:23.637 +03:00 [INF] HTTP GET /Catalog/Products responded 200 in 19.3159 ms
+2022-07-19 22:30:23.639 +03:00 [INF] ResponseBody: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products - RazorPagesGB</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c" />
+    <link rel="stylesheet" href="/RazorPagesGB.styles.css?v=P_ilJELsgHvSCBy5v_u4cmdleb8B7A1SGyN2Fk72roo" />
+</head>
+<body>
+    <header>
+        <nav b-23fov3pmgq class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div b-23fov3pmgq class="container-fluid">
+                <a class="navbar-brand" href="/">RazorPagesGB</a>
+                <button b-23fov3pmgq class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span b-23fov3pmgq class="navbar-toggler-icon"></span>
+                </button>
+                <div b-23fov3pmgq class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul b-23fov3pmgq class="navbar-nav flex-grow-1">
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/">Home</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Home/Privacy">Privacy</a>
+                        </li>
+                        <li b-23fov3pmgq class="nav-item">
+                            <a class="nav-link text-dark" href="/Catalog/Products">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div b-23fov3pmgq class="container">
+        <main b-23fov3pmgq role="main" class="pb-3">
+            
+
+<h1>Products</h1>
+
+<p>
+    <a href="/Catalog/ProductsAdd">Add new product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+            <tr>
+                <td>
+                    2 |
+                </td>
+                <td>
+                    asfde |
+                </td>
+                <td>
+                    adgrf |
+                </td>
+                <td>
+                    321 |
+                </td>
+                <td>
+                    <img src="https://avatars.mds.yandex.net/i?id=52a4bb82fffcd1a3b55b93dc2d5b5e0e-5227334-images-thumbs&amp;n=13" alt="Product photo.">
+                </td>
+                <td>
+                    <a href="/Catalog/ProductDelete/2">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    1 |
+                </td>
+                <td>
+                    gfgfg |
+                </td>
+                <td>
+                    erwqhq43e |
+                </td>
+                <td>
+                    123213 |
+                </td>
+                <td>
+                    <img src="https://yandex.ru/images/search?pos=2&amp;from=tabbar&amp;img_url=https%3A%2F%2Fgametarget.ru%2Fwp-content%2Fuploads%2Fmedia%2Ffiles%2FMass-Effect-race.jpg&amp;text=mass&#x2B;effect&amp;rpt=simage&amp;lr=10678" alt="Product photo.">
+                </td>
+                <td>
+                    <a href="/Catalog/ProductDelete/1">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3 |
+                </td>
+                <td>
+                    aertnsrtn |
+                </td>
+                <td>
+                    yumu7u |
+                </td>
+                <td>
+                    666 |
+                </td>
+                <td>
+                    <img src="https://avatars.mds.yandex.net/i?id=4b091600f145cd06ce56405d33964ce8-3888471-images-thumbs&amp;n=13" alt="Product photo.">
+                </td>
+                <td>
+                    <a href="/Catalog/ProductDelete/3">Delete</a>
+                </td>
+            </tr>
+    </tbody>
+</table>
+
+        </main>
+    </div>
+
+    <footer b-23fov3pmgq class="border-top footer text-muted">
+        <div b-23fov3pmgq class="container">
+            &copy; 2022 - RazorPagesGB - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0"></script>
+    
+</body>
+</html>
+
+2022-07-19 22:30:23.647 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/Catalog/Products - - - 200 - text/html;+charset=utf-8 31.1896ms
+2022-07-19 22:30:23.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 22:30:23.656 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2022-07-19 22:30:23.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 1.3574ms
+2022-07-19 22:30:23.664 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.6578ms
